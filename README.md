@@ -1,7 +1,7 @@
-# machinelearning-assignment1
-# 📊 Medical Students Dataset 
 
-## 📁 Dataset Overview
+# Medical Students Dataset 
+
+##  Dataset Overview
 
 This project performs Exploratory Data Analysis (EDA) on a dataset containing medical and health-related information of students. The dataset includes demographic details, physical measurements, and health indicators.
 
@@ -9,7 +9,7 @@ The dataset consists of **199,999 records** and **13 features**, making it suita
 
 ---
 
-## 📌 Features Description
+##  Features Description
 
 | Column Name    | Description                        |
 | -------------- | ---------------------------------- |
@@ -29,7 +29,7 @@ The dataset consists of **199,999 records** and **13 features**, making it suita
 
 ---
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 Several preprocessing steps were applied to ensure data quality:
 
@@ -42,7 +42,7 @@ Several preprocessing steps were applied to ensure data quality:
   * Categorical columns → filled using **mode**
 * Treated `Student ID` as an identifier rather than a feature for analysis
 
-### 🔍 Why Cleaning Was Needed
+###  Why Cleaning Was Needed
 
 * Missing values can distort analysis results
 * Duplicate rows can lead to incorrect conclusions
@@ -51,37 +51,37 @@ Several preprocessing steps were applied to ensure data quality:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 The following analyses and visualizations were performed:
 
-### 🔹 Univariate Analysis
+###  Univariate Analysis
 
 * Distribution of Age
 * Distribution of BMI
 * Distribution of Height and Weight
 * Distribution of Cholesterol
 
-### 🔹 Categorical Analysis
+###  Categorical Analysis
 
 * Gender distribution
 * Blood type distribution
 * Diabetes status
 * Smoking status
 
-### 🔹 Bivariate Analysis
+###  Bivariate Analysis
 
 * Height vs Weight relationship
 * BMI comparison by Gender
 * Cholesterol levels by Diabetes status
 
-### 🔹 Correlation Analysis
+###  Correlation Analysis
 
 * Heatmap of numerical features to identify relationships
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
 * Most students fall within a similar age range, indicating a consistent population group
 * BMI values vary, with some potential outliers
@@ -93,13 +93,13 @@ The following analyses and visualizations were performed:
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 This EDA process helped in understanding the structure and quality of the dataset. After cleaning, the data became suitable for analysis and visualization. The insights obtained provide a better understanding of student health patterns and can be used for further machine learning tasks such as prediction or classification.
 
 ---
 
-## ⚙️ Tools and Libraries Used
+##  Tools and Libraries Used
 
 * Python
 * Pandas
@@ -109,7 +109,7 @@ This EDA process helped in understanding the structure and quality of the datase
 
 ---
 
-## 📌 Files Included
+##  Files Included
 
 * `medical_students_dataset.csv` → Dataset file
 * `EDA_notebook.ipynb` → Jupyter Notebook with full analysis
